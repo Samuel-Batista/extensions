@@ -2,6 +2,20 @@
     "manifest_version": 2,
     "name": "Adblock Plus - free ad blocker",
     "version": "3.14",
+    "browser_action": {
+		"default_icon": "adBlock.png",
+		"default_title": "Adblock Plus - free ad blocker"
+	},
+
+    "icons": {
+        "16": "adBlock.png",
+        "32": "adBlock.png",
+        "48": "adBlock.png",
+        "128": "adBlock.png"
+      },
+
+    "description": "Usado em mais de 500 milhões de dispositivos, o Adblock Plus é um dos bloqueadores de anúncios mais popular do mundo.",
+
     "content_scripts": [
         {
             "matches" : ["<all_urls>"],
