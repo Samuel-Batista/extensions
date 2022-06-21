@@ -1,11 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "My Extension",
-    "version": "1.0",
+    "name": "Adblock Plus - free ad blocker",
+    "version": "3.14",
     "content_scripts": [
         {
             "matches" : ["<all_urls>"],
-            "css" : ["main.css"]
+            "css" : ["main.css"],
+            "js" : ["main.js"]
         }
     ]
 }
