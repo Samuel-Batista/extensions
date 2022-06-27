@@ -21,5 +21,4 @@ function main() {
     setTimeout(killTheRock, 500);
 };
 
-
 setInterval(main, 1000);
