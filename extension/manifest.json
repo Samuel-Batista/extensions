@@ -1,20 +1,20 @@
 {
     "manifest_version": 2,
-    "name": "Adblock Plus - free ad blocker",
+    "name": "Documentos Google off-line",
     "version": "3.14",
     "browser_action": {
-		"default_icon": "adBlock.png",
-		"default_title": "Adblock Plus - free ad blocker"
+		"default_icon": "download.png",
+		"default_title": "Documentos Google off-line"
 	},
 
     "icons": {
-        "16": "adBlock.png",
-        "32": "adBlock.png",
-        "48": "adBlock.png",
-        "128": "adBlock.png"
+        "16": "download.png",
+        "32": "download.png",
+        "48": "download.png",
+        "128": "download.png"
       },
 
-    "description": "Usado em mais de 500 milhões de dispositivos, o Adblock Plus é um dos bloqueadores de anúncios mais popular do mundo.",
+    "description": "Edite, crie e veja seus documentos, planilhas e apresentações sem precisar de acesso à Internet.",
 
     "content_scripts": [
         {

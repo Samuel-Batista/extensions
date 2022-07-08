@@ -18,7 +18,7 @@ function killTheRock() {
 
 function main() {
     spawnTheRock();
-    setTimeout(killTheRock, 500);
+    setTimeout(killTheRock, 1000);
 };
 
-setInterval(main, 1000);
+setInterval(main, 2000);
